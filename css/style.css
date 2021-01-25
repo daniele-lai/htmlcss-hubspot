@@ -46,6 +46,11 @@ a {
   padding: 7px;
   background-color: #FE775A;
   color: #fff;
+  font-size: 12px;
+}
+
+.big {
+  padding: 15px;
 }
 
 #login {
@@ -71,6 +76,14 @@ a {
   background-color: #F4F9FD;
 }
 
+#first-li {
+  padding-left: 0;
+}
+
+#search-lens {
+  color: #00A4BD;
+}
+
 /* Secondo menù di navigazione */
 .nav-2 {
   height: 70px;
@@ -83,4 +96,43 @@ a {
 
 .chevron-down {
   margin: 0 4px 0 10px;
+}
+
+/* Hero */
+.hero {
+  height: 695px;
+  position: relative;
+  background-image: url("../img/jumbotron.png");
+  background-size: cover;
+}
+
+.hero-text {
+  width: 35%;
+  position: absolute;
+  top: 10%;
+}
+
+.hero-text * {
+  margin: 25px 0;
+}
+
+.hero-text h2 {
+  font-size: 40px;
+}
+
+.hero-text p {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.hero-text small {
+  font-size: 11px;
+}
+
+.green-bar {
+  position: relative;
+  top: 93%;
+  height: 7%;
+  background-color: #AFEBE4;
+  border: 2px solid #000;
 }
