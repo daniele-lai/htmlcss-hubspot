@@ -3,3 +3,69 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+/* Float */
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.container {
+  margin: auto;
+  width: 70%;
+}
+
+/* Typo */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Button */
+.btn {
+  border: 1px solid #FE775A;
+  border-radius: 5px;
+  padding: 7px;
+  background-color: #FE775A;
+  color: #fff;
+}
+
+#login {
+  background-color: #fff;
+  color: #FE775A;
+}
+
+/* Header */
+.menu-nav li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.menu {
+  padding: 20px 0;
+  font-size: 12px;
+}
+
+.nav-1 {
+  height: 60px;
+  border-bottom: 1px solid #000;
+  background-color: #F4F9FD;
+}
