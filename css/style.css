@@ -64,8 +64,23 @@ a {
   font-size: 12px;
 }
 
+/* Primo menù di navigazione */
 .nav-1 {
   height: 60px;
   border-bottom: 1px solid #000;
   background-color: #F4F9FD;
+}
+
+/* Secondo menù di navigazione */
+.nav-2 {
+  height: 70px;
+}
+
+.nav-2 nav ul {
+  vertical-align: middle;
+  line-height: 35px;
+}
+
+.chevron-down {
+  margin: 0 4px 0 10px;
 }
