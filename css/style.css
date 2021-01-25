@@ -120,7 +120,7 @@ a {
   font-size: 40px;
 }
 
-.hero-text p {
+.hero-text p, .cube p {
   font-size: 12px;
   line-height: 24px;
 }
@@ -134,5 +134,26 @@ a {
   top: 93%;
   height: 7%;
   background-color: #AFEBE4;
-  border: 2px solid #000;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+/* Main */
+main {
+  background-color: #f5f8fa;
+}
+/* Prima sezione "cubo" */
+.cube {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.cube img {
+  margin-top: 30px;
+  height: 130px;
+}
+
+.cube h2, .cube p {
+  margin-bottom: 20px;
 }
