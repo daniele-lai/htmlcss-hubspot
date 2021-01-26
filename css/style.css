@@ -117,21 +117,29 @@ a {
   top: 10%;
 }
 
-.hero-text * {
-  margin: 25px 0;
+.hero-text *, .cta-text * {
+  margin: 35px 0;
+}
+
+.hero-text small, .cta-text small {
+  display: block;
 }
 
 .hero-text h2 {
   font-size: 40px;
 }
 
-.hero-text p, .cube p, .book.right p, .col p, .gradient p, .logos.left p {
+.hero-text p, .cube p, .book.right p, .col p, .gradient p, .logos.left p, .cta-text p {
   font-size: 13px;
   line-height: 24px;
 }
 
-.hero-text small, .row div small {
+.hero-text small, .row div small, .cta-text small {
   font-size: 11px;
+}
+
+.hero-text small, .cta-text small {
+  margin-top: 50px;
 }
 
 .green-bar {
@@ -330,4 +338,16 @@ main {
 .logos.right {
   width: 60%;
   padding-top: 10px;
+}
+
+.cta-text {
+  width: 43%;
+}
+
+.cta-text h2 {
+  font-size: 26px;
+}
+
+.cta-img img {
+  height: 330px;
 }
