@@ -7,7 +7,9 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
+  background-color: #f5f8fa;
 }
+
 
 /* Float */
 .clearfix {
@@ -73,7 +75,6 @@ a {
 .nav-1 {
   height: 60px;
   border-bottom: 1px solid #000;
-  background-color: #F4F9FD;
 }
 
 #first-li {
@@ -87,6 +88,7 @@ a {
 /* Secondo menù di navigazione */
 .nav-2 {
   height: 70px;
+  background-color: #fff;
 }
 
 .nav-2 nav ul {
@@ -103,7 +105,10 @@ a {
   height: 695px;
   position: relative;
   background-image: url("../img/jumbotron.png");
-  background-size: cover;
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-color: #FFF4EF;
 }
 
 .hero-text {
@@ -120,7 +125,7 @@ a {
   font-size: 40px;
 }
 
-.hero-text p, .cube p {
+.hero-text p, .cube p, .book.right p {
   font-size: 12px;
   line-height: 24px;
 }
@@ -131,8 +136,8 @@ a {
 
 .green-bar {
   position: relative;
-  top: 93%;
-  height: 7%;
+  top: 88%;
+  height: 12%;
   background-color: #AFEBE4;
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
@@ -147,6 +152,7 @@ main {
   width: 80%;
   margin: auto;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .cube img {
@@ -156,4 +162,56 @@ main {
 
 .cube h2, .cube p {
   margin-bottom: 20px;
+}
+
+/* Seconda sezione "Registro" */
+.rounded {
+  background-color: #fff;
+  border-radius: ;
+  box-shadow: ;
+}
+
+.book.left, .in-box.left {
+  width: 30%;
+}
+
+.book.right, .in-box.right {
+  width: 70%;
+}
+
+.book.left img {
+  width: 50%;
+}
+
+.book.left {
+  text-align: center;
+}
+
+.book.right li {
+  display: inline-block;
+}
+
+.book * {
+  margin-bottom: 20px;
+}
+
+.book.right p {
+  width: 80%;
+}
+
+.book.right hr {
+  margin-top: 10px;
+  width: 90%
+}
+
+.in-box {
+  height: 25px;
+}
+.check {
+  color: #FE775A;
+  margin-right: 10px;
+}
+
+.check.move {
+  margin-left: 10px;
 }
