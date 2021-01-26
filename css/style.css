@@ -125,12 +125,12 @@ a {
   font-size: 40px;
 }
 
-.hero-text p, .cube p, .book.right p, .col p {
+.hero-text p, .cube p, .book.right p, .col p, .gradient p {
   font-size: 13px;
   line-height: 24px;
 }
 
-.hero-text small {
+.hero-text small, .row div small {
   font-size: 11px;
 }
 
@@ -227,12 +227,17 @@ main {
 }
 
 /* Terza sezione "colonne */
+.three-cols {
+  height: 540px;
+}
+
 .col {
   float: left;
   height: 500px;
   width: 30%;
   text-align: center;
   padding: 33px;
+  margin-bottom: 40px;
 }
 
 .col h3, .col h4, .col p, .col hr, .col ul {
@@ -249,4 +254,53 @@ main {
 
 .col:nth-child(2) {
   margin: 0 5%;
+}
+
+/* Sezione con gradiente di colori */
+.gradient {
+  height: 560px;
+  background: rgb(0,164,189);
+  background: linear-gradient(45deg, rgba(0,164,189,1) 0%, rgba(0,189,165,1) 100%);
+  text-align: center;
+  color: #fff;
+}
+
+.gradient h2 {
+  padding-top: 30px;
+  font-size: 26px;
+}
+
+.gradient h2, .gradient p {
+  margin-bottom: 20px;
+}
+
+.row div {
+  float: left;
+  width: 24%;
+  padding: 15px;
+}
+
+.row div h4 {
+  font-size: 35px
+}
+
+.row div *:not(plus) {
+  margin: 8px;
+}
+
+.plus {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.row.first div {
+  border-bottom: 1px solid #fff;
+}
+
+.row div {
+  border-right: 1px solid #fff;
+}
+
+.row div:nth-child(4)  {
+  border-right: 1px solid transparent;
 }
