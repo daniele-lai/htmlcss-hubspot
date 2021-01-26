@@ -126,7 +126,7 @@ a {
 }
 
 .hero-text p, .cube p, .book.right p {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 24px;
 }
 
@@ -167,8 +167,13 @@ main {
 /* Seconda sezione "Registro" */
 .rounded {
   background-color: #fff;
-  border-radius: ;
-  box-shadow: ;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 1px #ccc;
+}
+
+.register {
+  height: 250px;
+  padding: 40px;
 }
 
 .book.left, .in-box.left {
@@ -202,6 +207,10 @@ main {
 .book.right hr {
   margin-top: 10px;
   width: 90%
+}
+
+.book.right li {
+  font-size: 13px;
 }
 
 .in-box {
