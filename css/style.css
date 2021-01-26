@@ -125,7 +125,7 @@ a {
   font-size: 40px;
 }
 
-.hero-text p, .cube p, .book.right p, .col p, .gradient p {
+.hero-text p, .cube p, .book.right p, .col p, .gradient p, .logos.left p {
   font-size: 13px;
   line-height: 24px;
 }
@@ -303,4 +303,31 @@ main {
 
 .row div:nth-child(4)  {
   border-right: 1px solid transparent;
+}
+
+/* Ultima sezione main */
+.partnership {
+  height: 210px;
+  width: 60%;
+  margin: auto;
+  padding-top: 40px;
+}
+.raw-logos img {
+  width: 125px;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.logos.left {
+  width: 20%;
+}
+
+.logos.left h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.logos.right {
+  width: 60%;
+  padding-top: 10px;
 }
